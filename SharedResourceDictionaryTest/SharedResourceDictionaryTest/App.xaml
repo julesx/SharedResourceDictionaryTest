@@ -3,12 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pclSharedResouces="clr-namespace:PCL_SharedResouces;assembly=PCL_SharedResouces"
              x:Class="SharedResourceDictionaryTest.App">
+    
 	<Application.Resources>
 
 		<ResourceDictionary MergedWith="pclSharedResouces:PclResources">
-            
-            
-            
+
+            <!--<Style TargetType="Label" x:Key="PclResourcesLabelStyle">
+                <Setter Property="TextColor" Value="Blue" />
+            </Style>-->
+
         </ResourceDictionary>
 
 	</Application.Resources>

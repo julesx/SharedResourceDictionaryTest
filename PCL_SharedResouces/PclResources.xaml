@@ -7,5 +7,4 @@
         <Setter Property="TextColor" Value="Red" />
     </Style>
     
-    
 </ResourceDictionary>

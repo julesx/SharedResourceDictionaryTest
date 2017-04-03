@@ -2,9 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SharedResourceDictionaryTest"
+             xmlns:pclSharedResouces="clr-namespace:PCL_SharedResouces;assembly=PCL_SharedResouces"
              x:Class="SharedResourceDictionaryTest.MainPage">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary MergedWith="local:App">
 
-    <Label Text="Welcome to Xamarin Forms!" Style="{DynamicResource PclResourcesLabelStyle}"
+            <!--<Style TargetType="Label" x:Key="PclResourcesLabelStyle">
+                <Setter Property="TextColor" Value="Pink" />
+            </Style>-->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Label Text="Welcome to Xamarin Forms!" Style="{StaticResource PclResourcesLabelStyle}"
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 

@@ -12,7 +12,6 @@ using Xamarin.Forms.Xaml;
 
 namespace PCL_SharedResouces
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PclResources
     {
         public PclResources()
