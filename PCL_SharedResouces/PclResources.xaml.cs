@@ -16,7 +16,7 @@ namespace PCL_SharedResouces
     {
         public PclResources()
         {
-
+            InitializeComponent();
         }
     }
 }
